@@ -1,0 +1,57 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\Administrator\\.ohos\\config\\default_gtasa_N_mShdPr1hduknlFMx1b0FbTWSk5FB3ZJra54Sfc-fA=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001AE9D3FE64B03D4F5127DD53FC211B5B87E40D134EAE5C8386610CBAB067D367C6F032239FF96F",
+          "profile": "C:\\Users\\Administrator\\.ohos\\config\\default_gtasa_N_mShdPr1hduknlFMx1b0FbTWSk5FB3ZJra54Sfc-fA=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\Administrator\\.ohos\\config\\default_gtasa_N_mShdPr1hduknlFMx1b0FbTWSk5FB3ZJra54Sfc-fA=.p12",
+          "storePassword": "0000001AF7C7CE6F87037F34973FEF64AB772427F04C1C51B1BA2053580A7E7EDD91E566F19F05EFBC10"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "targetSdkVersion": "26.0.0",
+        "compatibleSdkVersion": "6.1.1(24)",
+        "compileSdkVersion": "26.0.0(26.0.0)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug"
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

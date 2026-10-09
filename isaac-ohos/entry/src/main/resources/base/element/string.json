@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "isaac-ohos module"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "Isaac port on HarmonyOS NEXT"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "isaacoh"
+    }
+  ]
+}

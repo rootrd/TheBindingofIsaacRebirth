@@ -1,0 +1,32 @@
+# ---- game content (user-supplied at runtime, never in the repo) ----
+isaac-ohos/entry/src/main/resources/rawfile/isaac-ng.exe
+isaac-ohos/entry/src/main/resources/rawfile/kage_mount_points.dat
+isaac-ohos/entry/src/main/resources/rawfile/resources/
+isaac-ohos/entry/src/main/resources/rawfile/shaders/
+*.a
+
+# ---- build outputs ----
+isaac-ohos/entry/build/
+isaac-ohos/.hvigor*
+isaac-ohos/oh_modules/
+isaac-ohos/local.properties
+*.hap
+*.unsigned.hap
+repentogxm/build/
+pc-host/build/
+pc-host/obj/
+
+# ---- logs / dumps ----
+*.log
+*.jpeg
+device_*.jpeg
+g?.jpeg
+
+# ---- editors / OS ----
+.vs/
+.idea/
+.DS_Store
+Thumbs.db
+nul
+
+isaac-ohos/entry/.cxx/

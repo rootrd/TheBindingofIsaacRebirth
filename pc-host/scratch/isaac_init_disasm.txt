@@ -1,0 +1,181 @@
+image_base=0x400000 sections=[('.text', '0x1000'), ('.rdata', '0x606000'), ('.data', '0x7a9000'), ('.rsrc', '0x80b000'), ('.reloc', '0x80f000')]
+=== RVA 0x5c2f10 (VA 0x009c2f10, sec .text, off 0x5c2310) ===
+0x5c2f10  55                   push ebp
+0x5c2f11  8bec                 mov ebp, esp
+0x5c2f13  83e4f8               and esp, 0xfffffff8
+0x5c2f16  83ec1c               sub esp, 0x1c
+0x5c2f19  53                   push ebx
+0x5c2f1a  56                   push esi
+0x5c2f1b  8b7508               mov esi, dword ptr [ebp + 8]
+0x5c2f1e  8bc6                 mov eax, esi
+0x5c2f20  c1e00f               shl eax, 0xf
+0x5c2f23  8bd6                 mov edx, esi
+0x5c2f25  33c6                 xor eax, esi
+0x5c2f27  c1ea09               shr edx, 9
+0x5c2f2a  c1e008               shl eax, 8
+0x5c2f2d  33c2                 xor eax, edx
+0x5c2f2f  c744241000010000     mov dword ptr [esp + 0x10], 0x100
+0x5c2f37  57                   push edi
+0x5c2f38  8bf9                 mov edi, ecx
+0x5c2f3a  33c6                 xor eax, esi
+0x5c2f3c  33c9                 xor ecx, ecx
+0x5c2f3e  897c241c             mov dword ptr [esp + 0x1c], edi
+0x5c2f42  03c1                 add eax, ecx
+0x5c2f44  13ce                 adc ecx, esi
+0x5c2f46  83c704               add edi, 4
+0x5c2f49  897c2410             mov dword ptr [esp + 0x10], edi
+0x5c2f4d  0f1f00               nop dword ptr [eax]
+0x5c2f50  682df45158           push 0x5851f42d
+0x5c2f55  682d7f954c           push 0x4c957f2d
+0x5c2f5a  51                   push ecx
+0x5c2f5b  50                   push eax
+0x5c2f5c  8bd8                 mov ebx, eax
+0x5c2f5e  8bf9                 mov edi, ecx
+0x5c2f60  e8fb8d0200           call 0x9ebd60
+0x5c2f65  83c07f               add eax, 0x7f
+0x5c2f68  c744242400000000     mov dword ptr [esp + 0x24], 0
+0x5c2f70  8bcf                 mov ecx, edi
+0x5c2f72  8bf7                 mov esi, edi
+0x5c2f74  83d200               adc edx, 0
+0x5c2f77  c1ef1b               shr edi, 0x1b
+0x5c2f7a  0faccb1b             shrd ebx, ecx, 0x1b
+0x5c2f7e  c1ee0d               shr esi, 0xd
+0x5c2f81  8bcf                 mov ecx, edi
+0x5c2f83  f7d9                 neg ecx
+0x5c2f85  89542418             mov dword ptr [esp + 0x18], edx
+0x5c2f89  83e11f               and ecx, 0x1f
+0x5c2f8c  33de                 xor ebx, esi
+0x5c2f8e  8bd3                 mov edx, ebx
+0x5c2f90  d3e2                 shl edx, cl
+0x5c2f92  8bcf                 mov ecx, edi
+0x5c2f94  d3eb                 shr ebx, cl
+0x5c2f96  8b4c2410             mov ecx, dword ptr [esp + 0x10]
+0x5c2f9a  0bd3                 or edx, ebx
+0x5c2f9c  8911                 mov dword ptr [ecx], edx
+0x5c2f9e  83c104               add ecx, 4
+0x5c2fa1  836c241401           sub dword ptr [esp + 0x14], 1
+0x5c2fa6  894c2410             mov dword ptr [esp + 0x10], ecx
+0x5c2faa  8b4c2418             mov ecx, dword ptr [esp + 0x18]
+0x5c2fae  75a0                 jne 0x9c2f50
+0x5c2fb0  8b5c241c             mov ebx, dword ptr [esp + 0x1c]
+0x5c2fb4  51                   push ecx
+0x5c2fb5  8bcb                 mov ecx, ebx
+0x5c2fb7  e8f4000000           call 0x9c30b0
+0x5c2fbc  5f                   pop edi
+0x5c2fbd  5e                   pop esi
+0x5c2fbe  c70300000000         mov dword ptr [ebx], 0
+0x5c2fc4  8bc3                 mov eax, ebx
+0x5c2fc6  5b                   pop ebx
+0x5c2fc7  8be5                 mov esp, ebp
+0x5c2fc9  5d                   pop ebp
+0x5c2fca  c20400               ret 4
+0x5c2fcd  cc                   int3 
+0x5c2fce  cc                   int3 
+0x5c2fcf  cc                   int3 
+0x5c2fd0  ff810c080000         inc dword ptr [ecx + 0x80c]
+0x5c2fd6  8b810c080000         mov eax, dword ptr [ecx + 0x80c]
+0x5c2fdc  018108080000         add dword ptr [ecx + 0x808], eax
+0x5c2fe2  53                   push ebx
+0x5c2fe3  56                   push esi
+0x5c2fe4  57                   push edi
+0x5c2fe5  33f6                 xor esi, esi
+0x5c2fe7  8db904040000         lea edi, [ecx + 0x404]
+0x5c2fed  0f1f00               nop dword ptr [eax]
+0x5c2ff0  8b1f                 mov ebx, dword ptr [edi]
+0x5c2ff2  8bc6                 mov eax, esi
+0x5c2ff4  83e003               and eax, 3
+0x5c2ff7  ff24859c309c00       jmp dword ptr [eax*4 + 0x9c309c]
+0x5c2ffe  8b8104080000         mov eax, dword ptr [ecx + 0x804]
+0x5c3004  8bd0                 mov edx, eax
+0x5c3006  c1e20d               shl edx, 0xd
+0x5c3009  eb27                 jmp 0x9c3032
+0x5c300b  8b8104080000         mov eax, dword ptr [ecx + 0x804]
+0x5c3011  8bd0                 mov edx, eax
+0x5c3013  c1ea06               shr edx, 6
+0x5c3016  eb1a                 jmp 0x9c3032
+0x5c3018  8b8104080000         mov eax, dword ptr [ecx + 0x804]
+0x5c301e  8d148500000000       lea edx, [eax*4]
+0x5c3025  eb0b                 jmp 0x9c3032
+0x5c3027  8b8104080000         mov eax, dword ptr [ecx + 0x804]
+0x5c302d  8bd0                 mov edx, eax
+0x5c302f  c1ea10               shr edx, 0x10
+0x5c3032  33d0                 xor edx, eax
+0x5c3034  899104080000         mov dword ptr [ecx + 0x804], edx
+0x5c303a  8d4680               lea eax, [esi - 0x80]
+0x5c303d  46                   inc esi
+0x5c303e  0fb6c0               movzx eax, al
+0x5c3041  8b848104040000       mov eax, dword ptr [ecx + eax*4 + 0x404]
+0x5c3048  018104080000         add dword ptr [ecx + 0x804], eax
+0x5c304e  8bc3                 mov eax, ebx
+0x5c3050  c1e802               shr eax, 2
+0x5c3053  0fb6c0               movzx eax, al
+0x5c3056  8b848104040000       mov eax, dword ptr [ecx + eax*4 + 0x404]
+0x5c305d  038104080000         add eax, dword ptr [ecx + 0x804]
+0x5c3063  038108080000         add eax, dword ptr [ecx + 0x808]
+0x5c3069  8907                 mov dword ptr [edi], eax
+0x5c306b  c1e80a               shr eax, 0xa
+0x5c306e  0fb6c0               movzx eax, al
+0x5c3071  8b848104040000       mov eax, dword ptr [ecx + eax*4 + 0x404]
+0x5c3078  03c3                 add eax, ebx
+0x5c307a  898108080000         mov dword ptr [ecx + 0x808], eax
+0x5c3080  898700fcffff         mov dword ptr [edi - 0x400], eax
+0x5c3086  83c704               add edi, 4
+image_base=0x400000 sections=[('.text', '0x1000'), ('.rdata', '0x606000'), ('.data', '0x7a9000'), ('.rsrc', '0x80b000'), ('.reloc', '0x80f000')]
+RVA 0x9c30b0: not mapped
+image_base=0x400000 sections=[('.text', '0x1000'), ('.rdata', '0x606000'), ('.data', '0x7a9000'), ('.rsrc', '0x80b000'), ('.reloc', '0x80f000')]
+=== RVA 0x5c2fd0 (VA 0x009c2fd0, sec .text, off 0x5c23d0) ===
+0x5c2fd0  ff810c080000         inc dword ptr [ecx + 0x80c]
+0x5c2fd6  8b810c080000         mov eax, dword ptr [ecx + 0x80c]
+0x5c2fdc  018108080000         add dword ptr [ecx + 0x808], eax
+0x5c2fe2  53                   push ebx
+0x5c2fe3  56                   push esi
+0x5c2fe4  57                   push edi
+0x5c2fe5  33f6                 xor esi, esi
+0x5c2fe7  8db904040000         lea edi, [ecx + 0x404]
+0x5c2fed  0f1f00               nop dword ptr [eax]
+0x5c2ff0  8b1f                 mov ebx, dword ptr [edi]
+0x5c2ff2  8bc6                 mov eax, esi
+0x5c2ff4  83e003               and eax, 3
+0x5c2ff7  ff24859c309c00       jmp dword ptr [eax*4 + 0x9c309c]
+0x5c2ffe  8b8104080000         mov eax, dword ptr [ecx + 0x804]
+0x5c3004  8bd0                 mov edx, eax
+0x5c3006  c1e20d               shl edx, 0xd
+0x5c3009  eb27                 jmp 0x9c3032
+0x5c300b  8b8104080000         mov eax, dword ptr [ecx + 0x804]
+0x5c3011  8bd0                 mov edx, eax
+0x5c3013  c1ea06               shr edx, 6
+0x5c3016  eb1a                 jmp 0x9c3032
+0x5c3018  8b8104080000         mov eax, dword ptr [ecx + 0x804]
+0x5c301e  8d148500000000       lea edx, [eax*4]
+0x5c3025  eb0b                 jmp 0x9c3032
+0x5c3027  8b8104080000         mov eax, dword ptr [ecx + 0x804]
+0x5c302d  8bd0                 mov edx, eax
+0x5c302f  c1ea10               shr edx, 0x10
+0x5c3032  33d0                 xor edx, eax
+0x5c3034  899104080000         mov dword ptr [ecx + 0x804], edx
+0x5c303a  8d4680               lea eax, [esi - 0x80]
+0x5c303d  46                   inc esi
+0x5c303e  0fb6c0               movzx eax, al
+0x5c3041  8b848104040000       mov eax, dword ptr [ecx + eax*4 + 0x404]
+0x5c3048  018104080000         add dword ptr [ecx + 0x804], eax
+0x5c304e  8bc3                 mov eax, ebx
+0x5c3050  c1e802               shr eax, 2
+0x5c3053  0fb6c0               movzx eax, al
+0x5c3056  8b848104040000       mov eax, dword ptr [ecx + eax*4 + 0x404]
+0x5c305d  038104080000         add eax, dword ptr [ecx + 0x804]
+0x5c3063  038108080000         add eax, dword ptr [ecx + 0x808]
+0x5c3069  8907                 mov dword ptr [edi], eax
+0x5c306b  c1e80a               shr eax, 0xa
+0x5c306e  0fb6c0               movzx eax, al
+0x5c3071  8b848104040000       mov eax, dword ptr [ecx + eax*4 + 0x404]
+0x5c3078  03c3                 add eax, ebx
+0x5c307a  898108080000         mov dword ptr [ecx + 0x808], eax
+0x5c3080  898700fcffff         mov dword ptr [edi - 0x400], eax
+0x5c3086  83c704               add edi, 4
+0x5c3089  81fe00010000         cmp esi, 0x100
+0x5c308f  0f825bffffff         jb 0x9c2ff0
+0x5c3095  5f                   pop edi
+0x5c3096  5e                   pop esi
+0x5c3097  5b                   pop ebx
+0x5c3098  c3                   ret 
+0x5c3099  0f1f00               nop dword ptr [eax]

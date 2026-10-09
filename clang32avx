@@ -1,0 +1,2 @@
+#!/bin/sh
+exec clang -m32 -mavx "$@"

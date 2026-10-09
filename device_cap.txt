@@ -1,0 +1,214 @@
+09-30 11:20:40.981     0     0 I I00000/HiLog: ========Zeroth log of type: init
+09-30 11:20:40.723   530   530 I I02C01/hmos_cust_carrier_mount/CustCarrierMount: MountCarrierToShared start
+09-30 11:20:40.723   530   530 I I02C01/hmos_cust_carrier_mount/CustCarrierMount: success to mount carrier to shared
+09-30 11:20:40.723   530   530 I I02C01/hmos_cust_carrier_mount/CustCarrierMount: MountCarrierToShared start
+09-30 11:20:40.723   530   530 I I02C01/hmos_cust_carrier_mount/CustCarrierMount: success to mount ANCO_APP_DATA to shared
+09-30 11:20:45.832  1232  1232 W I02C01/hmos_cust_carrier_mount/CustCarrierMount: not exsit CUST_GLOBAL_CARRIER_DIR or COTA_PARAM_CARRIER_DIR
+09-30 11:20:46.937  1032  1032 E I04301/light_sensor/LIGHT_SENSOR: AlsGetSpecifyXmlFileName: phoneType error
+09-30 11:20:46.979  1032  1032 E I04301/light_sensor/LU_SHAN: ProcessXml Get lushan xml fail, file name = /chip_prod/etc/sensors/lushan/fc_params.xml
+09-30 11:20:46.979  1032  1032 E I04301/light_sensor/LU_SHAN: ProcessXml Get lushan xml fail, file name = /chip_prod/etc/sensors/lushan/gru_params.xml
+09-30 11:20:46.980  1032  1032 E I04301/light_sensor/LU_SHAN: ProcessXml Get lushan xml fail, file name = /chip_prod/etc/sensors/lushan/rotate_conv1.xml
+09-30 11:20:46.980  1032  1032 E I04301/light_sensor/LU_SHAN: ProcessXml Get lushan xml fail, file name = /chip_prod/etc/sensors/lushan/rotate_mobile1.xml
+09-30 11:20:46.980  1032  1032 E I04301/light_sensor/LU_SHAN: ProcessXml Get lushan xml fail, file name = /chip_prod/etc/sensors/lushan/rotate_mobile2_depthwise.xml
+09-30 11:20:47.030  1032  1032 E I04301/light_sensor/LU_SHAN: ProcessXml Get lushan xml fail, file name = /chip_prod/etc/sensors/lushan/rotate_mobile3.xml
+09-30 11:20:47.030  1032  1032 E I04301/light_sensor/LU_SHAN: ProcessXml Get lushan xml fail, file name = /chip_prod/etc/sensors/lushan/fc_params_unlevel.xml
+09-30 11:20:47.030  1032  1032 E I04301/light_sensor/LU_SHAN: ProcessXml Get lushan xml fail, file name = /chip_prod/etc/sensors/lushan/gru_params_unlevel.xml
+09-30 11:20:47.030  1032  1032 E I04301/light_sensor/LU_SHAN: ProcessXml Get lushan xml fail, file name = /chip_prod/etc/sensors/lushan/rotate_conv1_unlevel.xml
+09-30 11:20:47.031  1032  1032 E I04301/light_sensor/LU_SHAN: ProcessXml Get lushan xml fail, file name = /chip_prod/etc/sensors/lushan/rotate_mobile1_unlevel.xml
+09-30 11:20:47.031  1032  1032 E I04301/light_sensor/LU_SHAN: ProcessXml Get lushan xml fail, file name = /chip_prod/etc/sensors/lushan/rotate_mobile2_depthwise_unlevel.xml
+09-30 11:20:47.033  1032  1032 E I04301/light_sensor/LU_SHAN: ProcessXml Get lushan xml fail, file name = /chip_prod/etc/sensors/lushan/rotate_mobile3_unlevel.xml
+09-30 11:20:47.033  1032  1032 E I04301/light_sensor/LU_SHAN: ProcessXml Get lushan xml fail, file name = /chip_prod/etc/sensors/lushan/fc_params_unfold.xml
+09-30 11:20:47.033  1032  1032 E I04301/light_sensor/LU_SHAN: ProcessXml Get lushan xml fail, file name = /chip_prod/etc/sensors/lushan/gru_params_unfold.xml
+09-30 11:20:47.033  1032  1032 E I04301/light_sensor/LU_SHAN: ProcessXml Get lushan xml fail, file name = /chip_prod/etc/sensors/lushan/rotate_conv1_unfold.xml
+09-30 11:20:47.033  1032  1032 E I04301/light_sensor/LU_SHAN: ProcessXml Get lushan xml fail, file name = /chip_prod/etc/sensors/lushan/rotate_mobile1_unfold.xml
+09-30 11:20:47.033  1032  1032 E I04301/light_sensor/LU_SHAN: ProcessXml Get lushan xml fail, file name = /chip_prod/etc/sensors/lushan/rotate_mobile2_depthwise_unfold.xml
+09-30 11:20:47.033  1032  1032 E I04301/light_sensor/LU_SHAN: ProcessXml Get lushan xml fail, file name = /chip_prod/etc/sensors/lushan/rotate_mobile3_unfold.xml
+09-30 11:20:47.033  1032  1032 E I04301/light_sensor/LU_SHAN: ProcessXml Get lushan xml fail, file name = /chip_prod/etc/sensors/lushan/fc_params_unlevel_unfold.xml
+09-30 11:20:47.033  1032  1032 E I04301/light_sensor/LU_SHAN: ProcessXml Get lushan xml fail, file name = /chip_prod/etc/sensors/lushan/gru_params_unlevel_unfold.xml
+09-30 11:20:47.033  1032  1032 E I04301/light_sensor/LU_SHAN: ProcessXml Get lushan xml fail, file name = /chip_prod/etc/sensors/lushan/rotate_conv1_unlevel_unfold.xml
+09-30 11:20:47.033  1032  1032 E I04301/light_sensor/LU_SHAN: ProcessXml Get lushan xml fail, file name = /chip_prod/etc/sensors/lushan/rotate_mobile1_unlevel_unfold.xml
+09-30 11:20:47.033  1032  1032 E I04301/light_sensor/LU_SHAN: ProcessXml Get lushan xml fail, file name = /chip_prod/etc/sensors/lushan/rotate_mobile2_depthwise_unlevel_unfold.xml
+09-30 11:20:47.033  1032  1032 E I04301/light_sensor/LU_SHAN: ProcessXml Get lushan xml fail, file name = /chip_prod/etc/sensors/lushan/rotate_mobile3_unlevel_unfold.xml
+09-30 11:20:47.033  1032  1032 E I04301/light_sensor/LU_SHAN: Failed to open /dev/lushan for finish, fd = -1  reason No such file or directory
+10-06 21:48:51.697 19028 19028 I C01317/com.huawei.hmos.quickpay/AppKit: [MTHRD1990]SmartGC:0 version:1000105
+10-06 21:48:51.698 19028 19028 I C03F00/com.huawei.hmos.quickpay/ArkCompiler: [ecmascript] asmint: 1, aot: 0, jit: 1, baseline jit: 0, bundle name: com.huawei.hmos.quickpay, arkTSMode: dynamic
+10-06 21:48:51.698  3610  3610 I A01C06/com.ohos.sceneboard/ICON: AppNameLiteModel --> updateShadowColor, open_gmaps color:rgba(0,0,0,0)
+10-06 21:48:51.698  3610  3610 I A01C06/com.ohos.sceneboard/ICON: AppNameLiteModel --> updateShadowColor, 乐吧斗地主 color:rgba(0,0,0,0)
+10-06 21:48:51.698  3610  3610 I A01C06/com.ohos.sceneboard/ICON: AppNameLiteModel --> updateShadowColor, Hollow Knight color:rgba(0,0,0,0)
+10-06 21:48:51.698  3610  3610 I A01C06/com.ohos.sceneboard/ICON: AppNameLiteModel --> updateShadowColor, isaacoh color:rgba(0,0,0,0)
+10-06 21:48:51.698  3610  3610 I A01C06/com.ohos.sceneboard/ICON: AppNameLiteModel --> updateShadowColor, TheXTech color:rgba(0,0,0,0)
+10-06 21:48:51.698  3610  3610 I A01C06/com.ohos.sceneboard/ICON: AppNameLiteModel --> updateShadowColor, Pokemon Emerald color:rgba(0,0,0,0)
+10-06 21:48:51.698  3610  3610 I A01C06/com.ohos.sceneboard/ICON: AppNameLiteModel --> updateShadowColor, 口袋改版工具盒 color:rgba(0,0,0,0)
+10-06 21:48:51.698  3610  3610 I A01C06/com.ohos.sceneboard/ICON: AppNameLiteModel --> updateShadowColor, 星露谷物语 color:rgba(0,0,0,0)
+10-06 21:48:51.698  3610  3610 I A01C06/com.ohos.sceneboard/ICON: AppNameLiteModel --> updateShadowColor, PixelForge color:rgba(0,0,0,0)
+10-06 21:48:51.698  3610  3610 I A01C06/com.ohos.sceneboard/ICON: AppNameLiteModel --> updateShadowColor, 暗黑修真 color:rgba(0,0,0,0)
+10-06 21:48:51.699 19028 19028 I C03F00/com.huawei.hmos.quickpay/ArkCompiler: [ecmascript] multi-thread check enabled: 0
+10-06 21:48:51.699 19028 19028 I C03F00/com.huawei.hmos.quickpay/ArkCompiler: [pgo] reset pgo profiler, pgo profiler is disabled
+10-06 21:48:51.700 19028 19028 I C03301/com.huawei.hmos.quickpay/LIBUV: clean up handles in loop(2464)
+10-06 21:48:51.700 19028 19028 I C03301/com.huawei.hmos.quickpay/LIBUV: loop:(2464) closed in 0s
+10-06 21:48:51.700 19028 19028 I C03301/com.huawei.hmos.quickpay/LIBUV: close:2464, async_io_wfd:16
+10-06 21:48:51.700 19028 19028 I C03301/com.huawei.hmos.quickpay/LIBUV: close:2464, backend_fd:9
+10-06 21:48:51.700 19028 19028 I C03301/com.huawei.hmos.quickpay/LIBUV: init:8192
+10-06 21:48:51.700 19028 19028 I C03301/com.huawei.hmos.quickpay/LIBUV: init:8192, backend_fd:9
+10-06 21:48:51.700 19028 19028 I C03301/com.huawei.hmos.quickpay/LIBUV: open:8192, pipefd[0]:16
+10-06 21:48:51.702 19028 19028 I C03F00/com.huawei.hmos.quickpay/ArkCompiler: [ecmascript] can not find aot file
+10-06 21:48:51.702 19028 19028 W C01305/com.huawei.hmos.quickpay/Base: [zip_file.cpp(ExtractToBufByName:966)]GetEntry from pkgContextInfo.json err
+10-06 21:48:51.706 19028 19028 W C01321/com.huawei.hmos.quickpay/JsRuntime: [CSM161]disCon
+10-06 21:48:51.706 19028 19028 I C03F00/com.huawei.hmos.quickpay/ArkCompiler: [ecmascript] JSNApi::NotifyDebugMode, tid = 19028, debugApp = 0, isDebugMode = 0, instanceId = 0
+10-06 21:48:51.707 19028 19560 I C01317/com.huawei.hmos.quickpay/AppKit: [DRH689]File existed. dir: /data/storage/el2/base/cache/rawheap
+10-06 21:48:51.707 19028 19560 I C01317/com.huawei.hmos.quickpay/AppKit: [DRH667]success to create /data/storage/el2/base/cache/rawheap
+10-06 21:48:51.707   564   564 I C02C03/PARAM_WATCHER: [watcher_manager.cpp:72]Add remote watcher remoteWatcherId 16871 19028 success
+10-06 21:48:51.708   564   582 I C02C03/PARAM_WATCHER: SendLocalChange start keyPrefix persist.hdc.jdwp remoteWatcherId 16871
+10-06 21:48:51.708   564 19572 W C057C1/param_watcher/IPCWorkThread: ThreadHandler: proto:0 policy:0 name:OS_IPC_1445_19572 invoker:185107712
+10-06 21:48:51.708 19028 19028 W C01E00/com.huawei.hmos.quickpay/ResourceManager: update userId, currentUserId_= 0, userId= 100
+10-06 21:48:51.709   564   582 I C02C03/PARAM_WATCHER: [watcher_manager.cpp:187]Add watcher persist.hdc.jdwp remoteWatcherId: 16871 groupId 194 success
+10-06 21:48:51.709 19028 19571 I C02C03/PARAM_WATCHER: Add watcher keyPrefix persist.hdc.jdwp remoteWatcherId 16871 success
+10-06 21:48:51.709 19028 19571 I C02D13/com.huawei.hmos.quickpay/HDC_LOG: AddWatchHdcdJdwp rc:0
+10-06 21:48:51.709 19028 19571 I C02D13/com.huawei.hmos.quickpay/HDC_LOG: skip register image callback
+10-06 21:48:51.709 19028 19571 I C02D13/com.huawei.hmos.quickpay/HDC_LOG: connect success cfd:31
+10-06 21:48:51.709 19028 19571 I C02D13/com.huawei.hmos.quickpay/HDC_LOG: Send2Jdwp send pid:19028, pp:com.huawei.hmos.quickpay, isDebug:0, msglen:36
+10-06 21:48:51.709  2202  2202 I C02D13/hdcd/HDC_LOG: [ReadStream:278] JDWP accept pid:19028-pkg:com.huawei.hmos.quickpay isDebug:0
+10-06 21:48:51.711 19028 19028 I C01317/com.huawei.hmos.quickpay/AppKit: [MTHRD4516]ParseAppConfigurationParams config:{"0#const.build.characteristics":"phone","0#input.pointer.device":"false","0#ohos.app.fontSizeScale":"nonFollowSystem","0#ohos.system.colorMode":"light","0#ohos.system.fontSizeScale":"0.850000","0#ohos.system.fontWeightScale":"0.750000","0#ohos.system.hour":"true","0#ohos.system.language":"zh-Hans-CN","0#ohos.system.locale":"zh-Hans-CN","0#ohos.system.mcc":"460","0#ohos.system.mnc":"07"}
+10-06 21:48:51.712 19028 19557 W C01653/com.huawei.hmos.quickpay/NativePreferences: LoadFromDisk: The settingXml /***/el1/***/i18*** load failed.
+10-06 21:48:51.714 19028 19028 E C01301/com.huawei.hmos.quickpay/CompatiblePolicyDeviceType: [calculateResourceType:81]deviceType is empty.
+10-06 21:48:51.717 19028 19028 E C03D00/com.huawei.hmos.quickpay/JSLEAK_WATCHER_TS: user mode release hap is not allow
+10-06 21:48:51.717 19028 19028 I C01317/com.huawei.hmos.quickpay/AppKit: [application_cleaner.cpp94]ClearTempData
+10-06 21:48:51.719 19028 19028 I C01317/com.huawei.hmos.quickpay/AppKit: [MTHRD2947]NtfyAppPreAbiCreate
+10-06 21:48:51.721  1646 18829 I C04201/foundation/DMS: screen_session_manager.cpp RegisterClientDeathListener: pid: 19028, bundle name: com.huawei.hmos.quickpay
+10-06 21:48:51.722  1646 18829 I C04201/foundation/DMS: screen_session.cpp: pid:26, bundle:com.huawei.hmos.quickpay, api:26
+10-06 21:48:51.727 19028 19028 I C01317/com.huawei.hmos.quickpay/AppKit: [JAS211]LoadModule
+10-06 21:48:51.727 19028 19028 W C01317/com.huawei.hmos.quickpay/AppKit: [JAS1032]null stage
+10-06 21:48:51.727 19028 19028 W C01317/com.huawei.hmos.quickpay/AppKit: [JAS254]Not found AbilityStage.js
+10-06 21:48:51.727 19028 19028 I C01317/com.huawei.hmos.quickpay/AppKit: [OH_APP432]OnAboutToCreateAbility
+10-06 21:48:51.727 19028 19028 W C01317/com.huawei.hmos.quickpay/AppKit: [JAS349]Not found AbilityStage.js
+10-06 21:48:51.729 19028 19565 I C03F00/com.huawei.hmos.quickpay/ArkCompiler: [pgo] will save profiler to file /data/storage/ark-profile/rt_entry.ap
+10-06 21:48:51.729 19028 19028 I C03F00/com.huawei.hmos.quickpay/ArkCompiler: [ecmascript] start to execute module buffer with secure memory: /data/storage/el1/bundle/entry/ets/serviceExtAbility/QuickPayExtAbility.abc
+10-06 21:48:51.740 19028 19028 I C01320/com.huawei.hmos.quickpay/JsEnv: [JSENV300]timing: 10
+10-06 21:48:51.741 19028 19028 I C03F00/com.huawei.hmos.quickpay/ArkCompiler: [ecmascript] start to execute ark buffer with secure memory use file: /data/storage/el1/bundle/entry/ets/modules.abc, entrypoint: @bundle:com.huawei.hmos.quickpay/entry/build/generated/r/ResourceTable
+10-06 21:48:51.742   563 65523 I C01800/samgr/SAMGR: SubscribeSA:4606,19028_44_1
+10-06 21:48:51.742   563 65523 I C01800/samgr/SAMGR: NotifyAddSA:4606,19028_1
+10-06 21:48:51.743  1646 18829 I C01336/foundation/AMS: [ABMS7775]AttAbTh
+10-06 21:48:51.743  1646 18829 I C01336/foundation/AMS: [ABMS7790]com.huawei.hmos.quickpay/QuickPayExtAbility
+10-06 21:48:51.743  1646 18829 I C01336/foundation/AMS: [ABR583]RemoveLoadTimeoutTask:22598
+10-06 21:48:51.743  1646 18829 W C01336/foundation/AMS: [ABR3002]nullSess
+10-06 21:48:51.743 19028 19028 I C01340/com.huawei.hmos.quickpay/Ext: [EXTI88]QuickPayExtAbility;0;1;0
+10-06 21:48:51.744 19028 19028 I C01342/com.huawei.hmos.quickpay/ServiceExt: [JSE819]Call(onCreate)
+10-06 21:48:51.745 19028 19028 I A00000/com.huawei.hmos.quickpay/testTag: shift to other hap context !
+10-06 21:48:51.746 19028 19028 I A00000/com.huawei.hmos.quickpay/[QuickPayExtAbility]: fontScale: 0.85
+10-06 21:48:51.747 19028 19028 I C01317/com.huawei.hmos.quickpay/AppKit: [OH_APP1240]current 2, pre 0
+10-06 21:48:51.747 19028 19028 W C01317/com.huawei.hmos.quickpay/AppKit: [OH_APP1269]fontSize empty
+10-06 21:48:51.747 19028 19028 I C01317/com.huawei.hmos.quickpay/AppKit: [OH_APP1300]current 2, pre 0
+10-06 21:48:51.747 19028 19028 W C01317/com.huawei.hmos.quickpay/AppKit: [OH_APP1304]language empty
+10-06 21:48:51.747 19028 19028 W C01317/com.huawei.hmos.quickpay/AppKit: [OH_APP1323]language and locale empty
+10-06 21:48:51.747 19028 19028 I C01317/com.huawei.hmos.quickpay/AppKit: [OH_APP298]configuration_: {"0#const.build.characteristics":"phone","0#input.pointer.device":"false","0#ohos.app.fontMaxScale":"3.2","0#ohos.app.fontSizeScale":"followSystem","0#ohos.system.colorMode":"light","0#ohos.system.colorMode.isSetByApp":"isSetByApp","0#ohos.system.fontSizeScale":"0.850000","0#ohos.system.fontWeightScale":"0.750000","0#ohos.system.hour":"true","0#ohos.system.language":"zh-Hans-CN","0#ohos.system.locale":"zh-Hans-CN","0#ohos.system.mcc":"460","0#ohos.system.mnc":"07"}, config: {"0#ohos.system.colorMode":"light","0#ohos.system.colorMode.isSetByApp":"isSetByApp"}
+10-06 21:48:51.747 19028 19028 E C04217/com.huawei.hmos.quickpay/WMSAttribute: UpdateConfigurationSyncForAll: root is null
+10-06 21:48:51.747 19028 19028 E C01342/com.huawei.hmos.quickpay/ServiceExt: [JSE816]get 'onConfigurationUpdated' from ServiceExtension obj failed
+10-06 21:48:51.747 19028 19028 I C01342/com.huawei.hmos.quickpay/ServiceExt: [JSE819]Call(onConfigurationUpdate)
+10-06 21:48:51.747 19028 19028 I A00000/com.huawei.hmos.quickpay/[QuickPayExtAbility]: fontScale: 0.85
+10-06 21:48:51.747 19028 19028 W C01317/com.huawei.hmos.quickpay/AppKit: [JAS919]Not found AbilityStage.js
+10-06 21:48:51.747 19028 19028 W C01317/com.huawei.hmos.quickpay/AppKit: [JAS919]Not found AbilityStage.js
+10-06 21:48:51.747 19028 19028 I C01317/com.huawei.hmos.quickpay/AppKit: [OH_APP322]ignoreWindowContext size 0
+10-06 21:48:51.747 19028 19028 E C04217/com.huawei.hmos.quickpay/WMSAttribute: UpdateConfigurationForAll: root is null
+10-06 21:48:51.748 19028 19028 I A00000/com.huawei.hmos.quickpay/CommonEventUtils: subscriber event: SCENE_PANEL_EVENT
+10-06 21:48:51.748 19028 19028 I A0FF00/com.huawei.hmos.quickpay/[QuickPayExtAbility]: onCreate, want: }
+10-06 21:48:51.748  1646 18829 I C01336/foundation/AMS: [ABMS8389]Done:com.huawei.hmos.quickpay/QuickPayExtAbility, s:1, c:19028
+10-06 21:48:51.748  1646 18829 I C01336/foundation/AMS: [ABMS8395]Lifecycle: ability:/com.huawei.hmos.quickpay/entry/QuickPayExtAbility
+10-06 21:48:51.748  1646 18829 I C01340/foundation/Ext: [ABCM845]com.huawei.hmos.quickpay/QuickPayExtAbility, INACTIVE
+10-06 21:48:51.748  1646 18829 I C01342/foundation/ServiceExt: [BER311]ConnectAbility
+10-06 21:48:51.749   965 19508 I C01702/resource_schedule_service/CgroupSchedEnhance: [a92ab5fc43b6eb2 0 0]HandlePreConnectionStart: callerPid:1560, callerUid:7654, extensionPid:19028, extensionUid:20020139, callerName:1560, extensionType:3, extensionName:QuickPayExtAbility
+10-06 21:48:51.749   867 17472 I C02699/memmgrservice/MM: U:EXT_CRE:19028,20020139,0,130,00,0000,0000,-100,-1,[],00
+10-06 21:48:51.749 19028 19028 I A00000/com.huawei.hmos.quickpay/CommonEventUtils: createSubscriber
+10-06 21:48:51.750 19028 19028 I C01342/com.huawei.hmos.quickpay/ServiceExt: [JSE877]Call onConnect
+10-06 21:48:51.750   965 19508 I C01731/resource_schedule_service/SUSPEND_MSG: [a92ab6fc43b71dd 0 0]OnExtensionStateCreate uid:20020139 pid:19028, 22598_QuickPayExtAbility_5_3
+10-06 21:48:51.750 19028 19028 I A0FF00/com.huawei.hmos.quickpay/[QuickPayExtAbility]: onConnect, want: {"deviceId":"","bundleName":"com.huawei.hmos.quickpay","abilityName":"QuickPayExtAbility","moduleName":"entry","uri":"","type":"","flags":0,"action":"","parameters":{"component.startup.newRules":true,"moduleName":"entry","ohos.aafwk.param.callerAbilityName":"","ohos.aafwk.param.callerBundleName":"","ohos.aafwk.param.callerNativeName":"_swing_service","ohos.aafwk.param.callerPid":1560,"ohos.aafwk.param.callerToken":672087196,"ohos.aafwk.param.callerUid":7654,"ohos.param.callerAppCloneIndex":0},"fds":{},"entities":[]}
+10-06 21:48:51.750 19028 19028 I A0FF00/com.huawei.hmos.quickpay/[QuickPayExtAbility]: onConnect, want uid: 7654
+10-06 21:48:51.750  1646 18829 I C01340/foundation/Ext: [ABCM901]com.huawei.hmos.quickpay/QuickPayExtAbility
+10-06 21:48:51.751  1646 18829 I C01336/foundation/AMS: [CONN488]CancelConnectTimeoutTask:30433
+10-06 21:48:51.751   563 65523 I C01800/samgr/SAMGR: SubscribeSA:3299,19028_203_2
+10-06 21:48:51.752   563 65523 I C01800/samgr/SAMGR: NotifyAddSA:3299,19028_2
+10-06 21:48:51.752  1646 18829 I C01335/foundation/Connection: [CONN146]Connect,QuickPayExtAbility
+10-06 21:48:51.752  1646 18829 I C01335/foundation/Connection: [CONN182]state:2
+10-06 21:48:51.752   965 19507 I C01731/resource_schedule_service/SUSPEND_MSG: [a92ab7fc43b7ad4 0 0]called:20020139_com.huawei.hmos.quickpay_QuickPayExtAbility_19028,caller:7654_1560_1560,connect:1_0
+10-06 21:48:51.752   965 19504 I C01702/resource_schedule_service/CgroupSchedEnhance: [a92ab8fc43b7b85 0 0]HandlePreConnectionEnd: callerPid:1560, callerUid:7654, extensionPid:19028, extensionUid:20020139, callerName:1560, extensionType:3, extensionName:QuickPayExtAbility
+10-06 21:48:51.753   867 19358 I C02699/memmgrservice/MM: U:BIND:19028,20020139,100,130,00,0000,0000,-100,-1,[(1560-0)],00
+10-06 21:48:51.753  1560 19526 I C02120/swing_service/QuickPayServerConnection: OnAbilityConnectDone#Connected quickpay service!
+10-06 21:48:51.753  1560 19526 I C02120/swing_service/QuickPayServerConnection: OnEventReport#report event to quickpay service, code: 100
+10-06 21:48:51.753  1560 19526 E C02120/swing_service/QuickPayServerConnection: OnEventReport#prelaunch event, no need report to hap!
+10-06 21:48:51.753  1560 19526 I C01340/swing_service/Ext: [ACCS144]connect end,QuickPayExtAbility
+10-06 21:48:51.753  1560 19463 E C02120/swing_service/SwingTaskHandler: CancelTask#failed:1.
+10-06 21:48:51.756  1646 19469 I C01202/foundation/Subscriber: Subscribe 19028_20020139_-1_108979_100
+10-06 21:48:51.802  3610  3610 I C03930/com.ohos.sceneboard/AceAnimation: [(100000:100000:scope)] animateTo finish, cnt:51755
+10-06 21:48:51.811  3610  3610 I A01B01/com.ohos.sceneboard/HOME: SCBSceneContainer: issShowTransitionIconOrCard state is 0, isCombinationIcon:false
+10-06 21:48:51.812  3610  3610 I C0392C/com.ohos.sceneboard/AceForEach: [(100000:100000:scope)] ForEachNode skip mark dirty. Id[916187], Ids.size[2]
+10-06 21:48:51.814  3610  3610 I A01B01/com.ohos.sceneboard/HOME: SCBSceneHolder: isAnimSnapshotShow false, isShowContainerSnapshot.
+10-06 21:48:51.819 49171 49398 I C04170/distributedsched/DSched_Service: DSchedContinueManager::HandleNotifyTerminateContinuation HandleNotifyTerminateContinuation begin, missionId 1569
+10-06 21:48:51.819 49171 49398 W C04170/distributedsched/DSched_Service: DSchedContinueManager::HandleNotifyTerminateContinuation No continuation in progress.
+10-06 21:48:51.824  1478 19348 I C01560/wifi_manager_service/StaStateMachine: SignalPoll,bssid:d4:8f:**:**:**:20,ssid:�***��,networkId:70,band:2,freq:5745,rssi:-60,noise:-90,chload:32,snr:38,ulDelay:1,txLinkSpeed:8647,rxLinkSpeed:9607,txBytes:288624549,rxBytes:1420691673,txFailed:4,txPackets:583290,rxPackets:1295849,wifiCategory:3, wifiLinkType:0,GetWifiStandard:6,rxmax:1200,txmax:1200,connState:4,detState:10,lastSignal:4,chloadSelf:12,c0Rssi:0,c1Rssi:0
+10-06 21:48:51.824  1478 19348 I C01560/wifi_manager_service/WifiNetworkMgrExtChr: WifiNetworkMgrExtChr GetInstance
+10-06 21:48:51.825  1478 18529 I C01560/wifi_manager_service/WifiAiCsmaArbitration: AIWifiInfo:txRate:8647,rxRate:9607,txBytes:288624549,rxBytes:1420691673,txPackets:583290,rxPackets:1295849,txPpduCnt:0,txPpduRetryCnt:0,ppduPer:0.000000,txMcs:8,noise:-90,chload:32,chloadSelf:12,uldelayBeCdf:0,0,0,0,0,0,0,0,,uldelayBkCdf:0,0,0,0,0,0,0,0,,uldelayViCdf:0,0,0,0,0,0,0,0,,uldelayVoCdf:0,0,0,0,0,0,0,0,,txtimeBeCdf:0,0,0,0,0,0,0,0,,txtimeBkCdf:0,0,0,0,0,0,0,0,,txtimeViCdf:0,0,0,0,0,0,0,0,,txtimeVoCdf:0,0,0,0,0,0,0,0,,cwMin:4,cwMax:10,beaconRssi:-62,-61,-60,-60,-62,-60,-61,-62,-62,-62,
+10-06 21:48:51.833  2202 19546 I C02D13/hdcd/HDC_LOG: [FinishShellProc:131] FinishShellProc finish pipeRead fd:22 pid:19545 count:1
+10-06 21:48:51.833  2202 19546 I C02D13/hdcd/HDC_LOG: [TaskFinish:55] HdcTaskBase::TaskFinish notify begin type:0 cid:3581595093 sid:595******653(L:8)
+10-06 21:48:51.833  2202 19546 I C02D13/hdcd/HDC_LOG: [TaskFinish:58] HdcTaskBase::TaskFinish notify end type:0 cid:3581595093 sid:595******653(L:8)
+10-06 21:48:51.834  1014  5432 I C02155/hiaiserver/ScanCodeEvent: [IGS]: "Report:QRCode:0;MiniProgramCode:0;FrameType:0# ."
+10-06 21:48:51.835  2202 47888 I C02D13/hdcd/HDC_LOG: [FetchCommand:1235] FetchCommand channelId:3581595093 command:2
+10-06 21:48:51.835  2202 47888 W C02D13/hdcd/HDC_LOG: [BeginRemoveTask:163] BeginRemoveTask taskType:0 channelId:3581595093
+10-06 21:48:51.835  2202 47888 W C02D13/hdcd/HDC_LOG: [ClearOwnTasks:193] ClearOwnTasks OP_CLEAR finish, sessionId:595******653(L:8) channelIDInput:3581595093
+10-06 21:48:51.835  2202 47888 W C02D13/hdcd/HDC_LOG: [TaskClassDeleteRetry:118] taskClassDeleteRetry start clear task, taskType:0 cid:3581595093 sid:595******653(L:8)
+10-06 21:48:51.835  2202 47888 I C02D13/hdcd/HDC_LOG: [DoRelease:111] DoRelease rc:-3 pid:19545
+10-06 21:48:51.835  2202 47888 I C02D13/hdcd/HDC_LOG: [TaskClassDeleteRetry:129] TaskDelay task remove retry count 0/30, taskType:0 channelId:3581595093, sessionId:595******653(L:8)
+10-06 21:48:51.835  2202 47888 I C02D13/hdcd/HDC_LOG: [~HdcDaemonUnity:35] ~HdcDaemonUnity cid:3581595093 sid:595******653(L:8)
+10-06 21:48:51.835  2202 47888 I C02D13/hdcd/HDC_LOG: [~HdcTaskBase:40] ~HdcTaskBase type:0 cid:3581595093 sid:595******653(L:8)
+10-06 21:48:51.835  2202 47888 W C02D13/hdcd/HDC_LOG: [TaskClassDeleteRetry:137] TaskDelay task remove finish, channelId:3581595093
+10-06 21:48:51.835  2202 47888 I C02D13/hdcd/HDC_LOG: [DispUvStreamInfo:1072] before uv handle close, the uv handle type is 13
+10-06 21:48:51.835  1560 17085 W C02120/swing_service/SwingEventManager: publishSwingEvent#eventid = 800, msg = eventId:800;QRCode:0;MiniProgramCode:0;FrameType:0, subscriberList size = 1
+10-06 21:48:51.835  1560 27204 E C02120/swing_service/BarcodeScanSubscriber: HandleBarcodeResult#no code.
+10-06 21:48:51.851  2202 47888 I C02D13/hdcd/HDC_LOG: [FetchCommand:1235] FetchCommand channelId:3581595093 command:2
+10-06 21:48:51.860  3610  3610 I C03930/com.ohos.sceneboard/AceAnimation: [(100000:100000:scope)] animateTo finish, cnt:51756
+10-06 21:48:51.876  3610  4608 I C03930/com.ohos.sceneboard/AceAnimation: [(700000:700000:scope)] animateTo finish, cnt:51758
+10-06 21:48:51.876  3610  4608 E C01406/com.ohos.sceneboard/OHOS::RS: RSUIContext::RequestVsyncCallback failed requestVsyncCallback_ is null, token=19791209299997
+10-06 21:48:51.901  2202 47888 I C02D13/hdcd/HDC_LOG: [FetchCommand:1235] FetchCommand channelId:2805858172 command:1001
+10-06 21:48:51.901  2202 47888 I C02D13/hdcd/HDC_LOG: [DispatchTaskData:1676] New HTaskInfo cid:2805858172 sid:595******653(L:8) command:1001
+10-06 21:48:51.901  2202 47888 I C02D13/hdcd/HDC_LOG: [AdminTask:911] AdminTask add task type:0 cid:2805858172 sid:595******653(L:8) mapsize:1
+10-06 21:48:51.901  2202 47888 I C02D13/hdcd/HDC_LOG: [HdcTaskBase:34] HdcTaskBase type:0 cid:2805858172 sid:595******653(L:8)
+10-06 21:48:51.901  2202 47888 I C02D13/hdcd/HDC_LOG: [CommandDispatch:425] Unity CommandDispatch command:1001 cid:2805858172 sid:595******653(L:8)
+10-06 21:48:51.901  2202 47888 W C02D13/hdcd/HDC_LOG: [GetDevItem:35] GetDevItem false key:persist.hdc.root
+10-06 21:48:51.902  2202 47888 I C02D13/hdcd/HDC_LOG: [ThreadFork:188] Popen pipe fds[pipeRead]:22 fds[pipeWrite]:32, mode 0
+10-06 21:48:51.911  2202 47888 I C02D13/hdcd/HDC_LOG: [ExecuteCommand:246] ExecuteCommand cmd:hil******1 &(L:41) fd:22 pid:19577
+10-06 21:48:51.911  2202 47888 I C02D13/hdcd/HDC_LOG: [CommandDispatch:497] Unity CommandDispatch command:1001 finish cid:2805858172 sid:595******653(L:8)
+10-06 21:48:51.918  3610  3610 I A01C06/com.ohos.sceneboard/ICON: CloseAppRotateManager --> startExit3D onFinish
+10-06 21:48:51.926 19577 19577 W C02C02/PARAM: Selinux check name persist.init.debug.loglevel in u:object_r:startup_init_param:s0 [19577 2000 2000] failed
+10-06 21:48:51.926 19577 19577 W C02C02/PARAM: Selinux check name persist.init.debug.loglevel in u:object_r:startup_init_param:s0 [19577 2000 2000] failed
+10-06 21:48:51.926 19577 19577 W C02C02/PARAM: SystemReadParam failed!name is:persist.init.debug.loglevel,err:1002
+10-06 21:48:51.929 19577 19577 W C02C02/PARAM: Selinux check name const.logsystem.versiontype in u:object_r:versiontype_param:s0 [19577 2000 2000] failed
+10-06 21:48:51.929 19577 19577 W C02C02/PARAM: SystemReadParam failed!name is:const.logsystem.versiontype,err:1002
+10-06 21:48:51.930 19577 19577 W C02C02/PARAM: Selinux check name hilog.debug.on in u:object_r:hilog_private_param:s0 [19577 2000 2000] failed
+10-06 21:48:51.930 19577 19577 E C02C02/PARAM: Forbid to read parameter hilog.debug.on
+10-06 21:48:51.930 19577 19577 E C02C02/PARAM: Forbid to access parameter hilog.debug.on
+10-06 21:48:51.930 19577 19577 W C02C02/PARAM: Selinux check name persist.sys.hilog.debug.on in u:object_r:hilog_private_param:s0 [19577 2000 2000] failed
+10-06 21:48:51.930 19577 19577 E C02C02/PARAM: Forbid to read parameter persist.sys.hilog.debug.on
+10-06 21:48:51.930 19577 19577 E C02C02/PARAM: Forbid to access parameter persist.sys.hilog.debug.on
+10-06 21:48:51.937  2202 19578 I C02D13/hdcd/HDC_LOG: [FinishShellProc:131] FinishShellProc finish pipeRead fd:22 pid:19577 count:1
+10-06 21:48:51.937  2202 19578 I C02D13/hdcd/HDC_LOG: [TaskFinish:55] HdcTaskBase::TaskFinish notify begin type:0 cid:2805858172 sid:595******653(L:8)
+10-06 21:48:51.937  2202 19578 I C02D13/hdcd/HDC_LOG: [TaskFinish:58] HdcTaskBase::TaskFinish notify end type:0 cid:2805858172 sid:595******653(L:8)
+10-06 21:48:51.940  2202 47888 I C02D13/hdcd/HDC_LOG: [FetchCommand:1235] FetchCommand channelId:2805858172 command:2
+10-06 21:48:51.940  2202 47888 W C02D13/hdcd/HDC_LOG: [BeginRemoveTask:163] BeginRemoveTask taskType:0 channelId:2805858172
+10-06 21:48:51.940  2202 47888 W C02D13/hdcd/HDC_LOG: [ClearOwnTasks:193] ClearOwnTasks OP_CLEAR finish, sessionId:595******653(L:8) channelIDInput:2805858172
+10-06 21:48:51.940  2202 47888 W C02D13/hdcd/HDC_LOG: [TaskClassDeleteRetry:118] taskClassDeleteRetry start clear task, taskType:0 cid:2805858172 sid:595******653(L:8)
+10-06 21:48:51.941  2202 47888 I C02D13/hdcd/HDC_LOG: [DoRelease:111] DoRelease rc:-3 pid:19577
+10-06 21:48:51.941  2202 47888 I C02D13/hdcd/HDC_LOG: [TaskClassDeleteRetry:129] TaskDelay task remove retry count 0/30, taskType:0 channelId:2805858172, sessionId:595******653(L:8)
+10-06 21:48:51.941  2202 47888 I C02D13/hdcd/HDC_LOG: [~HdcDaemonUnity:35] ~HdcDaemonUnity cid:2805858172 sid:595******653(L:8)
+10-06 21:48:51.941  2202 47888 I C02D13/hdcd/HDC_LOG: [~HdcTaskBase:40] ~HdcTaskBase type:0 cid:2805858172 sid:595******653(L:8)
+10-06 21:48:51.941  2202 47888 W C02D13/hdcd/HDC_LOG: [TaskClassDeleteRetry:137] TaskDelay task remove finish, channelId:2805858172
+10-06 21:48:51.941  2202 47888 I C02D13/hdcd/HDC_LOG: [DispUvStreamInfo:1072] before uv handle close, the uv handle type is 13
+10-06 21:48:51.945  2202 47888 I C02D13/hdcd/HDC_LOG: [FetchCommand:1235] FetchCommand channelId:2805858172 command:2
+10-06 21:48:51.950 19579 19579 W C02C02/PARAM: Selinux check name persist.init.debug.loglevel in u:object_r:startup_init_param:s0 [19579 2000 2000] failed
+10-06 21:48:51.950 19579 19579 W C02C02/PARAM: Selinux check name persist.init.debug.loglevel in u:object_r:startup_init_param:s0 [19579 2000 2000] failed
+10-06 21:48:51.950 19579 19579 W C02C02/PARAM: SystemReadParam failed!name is:persist.init.debug.loglevel,err:1002
+10-06 21:48:51.953 19579 19579 W C02C02/PARAM: Selinux check name const.logsystem.versiontype in u:object_r:versiontype_param:s0 [19579 2000 2000] failed
+10-06 21:48:51.953 19579 19579 W C02C02/PARAM: SystemReadParam failed!name is:const.logsystem.versiontype,err:1002
+10-06 21:48:51.954 19579 19579 W C02C02/PARAM: Selinux check name hilog.debug.on in u:object_r:hilog_private_param:s0 [19579 2000 2000] failed
+10-06 21:48:51.954 19579 19579 E C02C02/PARAM: Forbid to read parameter hilog.debug.on
+10-06 21:48:51.954 19579 19579 E C02C02/PARAM: Forbid to access parameter hilog.debug.on
+10-06 21:48:51.954 19579 19579 W C02C02/PARAM: Selinux check name persist.sys.hilog.debug.on in u:object_r:hilog_private_param:s0 [19579 2000 2000] failed
+10-06 21:48:51.954 19579 19579 E C02C02/PARAM: Forbid to read parameter persist.sys.hilog.debug.on
+10-06 21:48:51.954 19579 19579 E C02C02/PARAM: Forbid to access parameter persist.sys.hilog.debug.on
